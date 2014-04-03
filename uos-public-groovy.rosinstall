@@ -1,0 +1,56 @@
+# This rosinstall contains all uos-ros-pkg stacks for ROS Groovy. It uses
+# public (i.e. anonymous) git URLs, so no SSH keys are required. It is
+# referenced from http://www.ros.org/wiki/uos-ros-pkg.
+
+- other: {local-name: /opt/ros/groovy/share/ros}
+- other: {local-name: /opt/ros/groovy/share}
+- other: {local-name: /opt/ros/groovy/stacks}
+- setup-file: {local-name: /opt/ros/groovy/setup.sh}
+
+# ----- UOS stacks
+- git: {local-name: uos-ros-pkg/diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin.git', version: groovy}
+- git: {local-name: uos-ros-pkg/katana_driver, uri: 'https://github.com/uos/katana_driver.git', version: groovy}
+# TODO: switch to groovy branch when we officially support groovy
+#- git: {local-name: uos-ros-pkg/katana_manipulation, uri: 'https://github.com/uos/katana_manipulation.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/kurt_apps, uri: 'https://github.com/uos/kurt_apps.git', version: groovy}
+- git: {local-name: uos-ros-pkg/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: groovy}
+# TODO: switch to groovy branch when we officially support groovy
+- git: {local-name: uos-ros-pkg/kurtana_robot, uri: 'https://github.com/uos/kurtana_robot.git', version: groovy_transition}
+- git: {local-name: uos-ros-pkg/sick_tim3xx, uri: 'https://github.com/uos/sick_tim3xx.git', version: groovy}
+- git: {local-name: uos-ros-pkg/uos_slam, uri: 'https://github.com/uos/uos_slam.git', version: groovy}
+- git: {local-name: uos-ros-pkg/uos_tools, uri: 'https://github.com/uos/uos_tools.git', version: groovy}
+- git: {local-name: uos-ros-pkg/volksbot_driver, uri: 'https://github.com/uos/volksbot_driver.git', version: master}
+
+# ----- required 3rd party stacks
+- git: {local-name: stacks/RCPRG_laser_drivers, uri: 'git://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git', version: master}
+- svn: {local-name: stacks/sicks300, uri: 'http://ais-bonn-ros-pkg.googlecode.com/svn/trunk/stacks/ais_bonn_drivers/sicks300'}
+- git: {local-name: stacks/uos-camera_umd, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-camera_umd.git', version: master}
+#- svn: {local-name: stacks/urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
+- git: {local-name: stacks/imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools.git', version: groovy}
+
+# using fuerte branch for now, since groovy already catkinized
+- git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/uos/phidgets_drivers.git', version: fuerte}
+- git: {local-name: stacks/robot_model_py, uri: 'git://github.com/laas/robot_model_py.git', version: groovy}
+- git:
+    local-name: stacks/ar_kinect
+    uri: 'https://github.com/mikeferguson/ar_kinect.git'
+    version: groovy-devel
+- git:
+    local-name: stacks/ar_tools
+    uri: 'https://github.com/LucidOne/ar_tools'
+    version: master
+
+# -----  overlays (bug fixed forks of other ROS stacks)
+# not needed in Groovy any more:
+# - git: {local-name: overlays/interpolated_ik_motion_planner, uri: 'http://kos.informatik.uni-osnabrueck.de/interpolated_ik_motion_planner.git', version: master}
+
+# not necessary any more once ros-groovy-object-manipulation 0.7.3 is released; doesn't compile on groovy
+#- git: {local-name: overlays/object_manipulator, uri: 'http://kos.informatik.uni-osnabrueck.de/object_manipulator.git', version: master}
+
+# not needed in Groovy any more:
+#- git: {local-name: overlays/tabletop_collision_map_processing, uri: 'http://kos.informatik.uni-osnabrueck.de/tabletop_collision_map_processing.git', version: master}
+
+# not needed in Groovy any more:
+#- git: {local-name: overlays/tabletop_object_detector, uri: 'http://kos.informatik.uni-osnabrueck.de/tabletop_object_detector.git', version: master}
+
+- git: {local-name: overlays/laser_assembler, uri: 'https://github.com/uos/laser_assembler.git', version: groovy-devel}

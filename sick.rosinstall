@@ -1,0 +1,34 @@
+# putting global installation first, as the ROS_PACKAGE path is generated reversed
+- other:
+    local-name: /opt/ros/electric/ros
+- other:
+    local-name: /opt/ros/electric/stacks
+
+# lms100 node
+- git:
+    uri: git://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git
+    local-name: stacks/RCPRG_laser_drivers
+    version: master
+
+## last our own repo
+- git:
+    uri: https://github.com/uos/kurt_apps.git
+    local-name: stacks/kurt_apps
+    version: electric
+
+- git:
+    uri: https://github.com/uos/kurt_driver.git
+    local-name: stacks/kurt_driver
+    version: electric
+
+- git:
+    uri: https://github.com/uos/uos_tools.git
+    local-name: stacks/uos_tools
+    version: electric
+
+
+## sick robot day 2012
+- git:
+    uri: software@kure.informatik.uos.de:sick2012
+    local-name: sick2012
+    version: master

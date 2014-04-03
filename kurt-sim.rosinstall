@@ -1,0 +1,28 @@
+- setup-file:
+    local-name: /opt/ros/fuerte/setup.sh
+- other:
+    local-name: /opt/ros/fuerte/share/ros
+- other:
+    local-name: /opt/ros/fuerte/share
+- other:
+    local-name: /opt/ros/fuerte/stacks
+
+- git:
+    uri: https://github.com/uos/kurt_apps.git
+    local-name: kurt_apps
+    version: fuerte
+
+- git:
+    uri: https://github.com/uos/uos_tools.git
+    local-name: uos_tools
+    version: fuerte
+
+- git:
+    uri: https://github.com/uos/kurt_driver.git
+    local-name: kurt_driver
+    version: fuerte
+
+- git:
+    uri: https://github.com/uos/diffdrive_gazebo_plugin.git
+    local-name: diffdrive_gazebo_plugin
+    version: fuerte

@@ -1,0 +1,37 @@
+- other: {local-name: /opt/ros/fuerte/share/ros}
+- other: {local-name: /opt/ros/fuerte/share}
+- other: {local-name: /opt/ros/fuerte/stacks}
+- setup-file: {local-name: /opt/ros/fuerte/setup.sh}
+
+- git: {local-name: muffin/calvin_navigation, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_navigation'}
+- git: {local-name: muffin/calvin_robot, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_robot'}
+- git: {local-name: muffin/muffin_mobman, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_mobman'}
+- git: {local-name: muffin/muffin_common, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_common'}
+
+- git: {local-name: overlays/arm_navigation, uri: 'https://github.com/uos/arm_navigation.git', version: uos_fuerte}
+- git: {local-name: overlays/interpolated_ik_motion_planner, uri: 'http://kos.informatik.uni-osnabrueck.de/interpolated_ik_motion_planner.git', version: master}
+- git: {local-name: overlays/laser_assembler, uri: 'https://github.com/uos/laser_assembler.git', version: fuerte-devel}
+- git: {local-name: overlays/geometry, uri: 'https://github.com/uos/geometry.git', version: fuerte_devel}
+
+- git: {local-name: stacks/ar_kinect, uri: 'https://github.com/mikeferguson/ar_kinect.git', version: fuerte-devel}
+- git: {local-name: stacks/ccny_vision, uri: 'https://github.com/uos/ccny_vision.git', version: master}
+- git: {local-name: stacks/imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools.git', version: master}
+- git: {local-name: stacks/libuvc_ros, uri: 'https://github.com/ktossell/libuvc_ros.git', version: fuerte}
+- git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/uos/phidgets_drivers.git', version: master}
+- git: {local-name: stacks/RCPRG_laser_drivers, uri: 'https://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git', version: master}
+- svn: {local-name: stacks/sicks300, uri: 'http://ais-bonn-ros-pkg.googlecode.com/svn/trunk/stacks/ais_bonn_drivers/sicks300'}
+- git: {local-name: stacks/uos-camera_umd, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-camera_umd.git', version: master}
+
+- git: {local-name: uos-ros-pkg/diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/katana_driver, uri: 'https://github.com/uos/katana_driver.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/katana_manipulation, uri: 'https://github.com/uos/katana_manipulation.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/kurtana_robot, uri: 'https://github.com/uos/kurtana_robot.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/kurt_apps, uri: 'https://github.com/uos/kurt_apps.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/sick_tim3xx, uri: 'https://github.com/uos/sick_tim3xx.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/uos_slam, uri: 'https://github.com/uos/uos_slam.git', version: fuerte}
+
+# apot's fork instead of uos version because of modifications to move_base_straight
+- git: {local-name: uos-ros-pkg/uos_tools, uri: 'https://github.com/apot/uos_tools.git', version: fuerte}
+
+- git: {local-name: uos-ros-pkg/volksbot_driver, uri: 'https://github.com/uos/volksbot_driver', version: master}

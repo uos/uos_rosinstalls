@@ -1,0 +1,29 @@
+- git: {local-name: muffin_common, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_common', version: master}
+
+- git: {local-name: mobman/calvin_navigation, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_navigation', version: hydro}
+- git: {local-name: mobman/calvin_robot, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_robot', version: hydro}
+- git: {local-name: mobman/muffin_mobman, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_mobman', version: hydro}
+
+- git: {local-name: karte/rotunit_coloring, uri: 'software@kure.informatik.uni-osnabrueck.de:rotunit_coloring', version: hydro}
+- git: {local-name: karte/rviz_mesh_plugin, uri: 'software@kure.informatik.uni-osnabrueck.de:rviz_mesh_plugin', version: master}
+- git: {local-name: karte/rviz_label_tool, uri: 'software@kure.informatik.uni-osnabrueck.de:rviz_label_tool', version: master}
+- git: {local-name: karte/hobbes_robot, uri: 'software@kure.informatik.uni-osnabrueck.de:hobbes_robot', version: master}
+- git: {local-name: karte/hobbes_navigation, uri: 'software@kure.informatik.uni-osnabrueck.de:hobbes_navigation', version: master}
+- git: {local-name: karte/hobbes_communication, uri: 'software@kure.informatik.uni-osnabrueck.de:hobbes_communication', version: master}
+- git: {local-name: karte/meshing.pg2013, uri: 'software@kure.informatik.uni-osnabrueck.de:meshing.pg2013', version: master}
+- git: {local-name: karte/lvr_tools, uri: 'software@kure.informatik.uni-osnabrueck.de:roslvr', version: hydro}
+- git: {local-name: karte/slam6d.pg2013, uri: 'software@kure.informatik.uni-osnabrueck.de:slam6d.pg2013', version: master}
+- git: {local-name: karte/threedtk_tools, uri: 'software@kure.informatik.uni-osnabrueck.de:ros_slam6d.pg2013', version: master}
+- git: {local-name: karte/postgis_control, uri: 'software@kure.informatik.uni-osnabrueck.de:postgis_control', version: master}
+- git: {local-name: karte/map_server_2d, uri: 'software@kure.informatik.uni-osnabrueck.de:postgis_utility', version: master}
+
+- git: {local-name: stacks/diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin', version: hydro}
+- git: {local-name: stacks/katana_driver, uri: 'https://github.com/uos/katana_driver', version: hydro}
+- git: {local-name: stacks/sick_tim3xx, uri: 'https://github.com/uos/sick_tim3xx', version: hydro}
+- git: {local-name: stacks/uos_tools, uri: 'https://github.com/uos/uos_tools', version: hydro}
+- git: {local-name: stacks/volksbot_driver, uri: 'https://github.com/uos/volksbot_driver', version: hydro}
+- git: {local-name: stacks/kurt_apps, uri: 'https://github.com/uos/kurt_apps.git', version: hydro}
+- git: {local-name: stacks/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: hydro}
+- git: {local-name: stacks/ar_tools, uri: 'https://github.com/LucidOne/ar_tools', version: master}
+- git: {local-name: stacks/ar_kinect, uri: 'https://github.com/mikeferguson/ar_kinect', version: hydro-devel}
+- git: {local-name: stacks/usb_cam, uri: 'https://github.com/uos/usb_cam', version: master}

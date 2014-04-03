@@ -1,0 +1,45 @@
+# This rosinstall contains all uos-ros-pkg stacks for ROS Fuerte. It uses
+# public (i.e. anonymous) git URLs, so no SSH keys are required. It is
+# referenced from http://www.ros.org/wiki/uos-ros-pkg.
+
+- other: {local-name: /opt/ros/fuerte/share/ros}
+- other: {local-name: /opt/ros/fuerte/share}
+- other: {local-name: /opt/ros/fuerte/stacks}
+- setup-file: {local-name: /opt/ros/fuerte/setup.sh}
+
+# UOS stacks
+- git: {local-name: uos-ros-pkg/diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/katana_driver, uri: 'https://github.com/uos/katana_driver.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/katana_manipulation, uri: 'https://github.com/uos/katana_manipulation.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/kurt_apps, uri: 'https://github.com/uos/kurt_apps.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/kurtana_robot, uri: 'https://github.com/uos/kurtana_robot.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/sick_tim3xx, uri: 'https://github.com/uos/sick_tim3xx.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/uos_slam, uri: 'https://github.com/uos/uos_slam.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/uos_tools, uri: 'https://github.com/uos/uos_tools.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/volksbot_driver, uri: 'https://github.com/uos/volksbot_driver.git', version: master}
+
+# required 3rd party stacks
+#- svn: {local-name: stacks/jsk_common, uri: 'https://jsk-ros-pkg.svn.sourceforge.net/svnroot/jsk-ros-pkg/trunk/jsk_common'}
+#- svn: {local-name: stacks/openrave_planning, uri: 'https://jsk-ros-pkg.svn.sourceforge.net/svnroot/jsk-ros-pkg/trunk/openrave_planning'}
+- git: {local-name: stacks/RCPRG_laser_drivers, uri: 'git://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git', version: master}
+- svn: {local-name: stacks/sicks300, uri: 'http://ais-bonn-ros-pkg.googlecode.com/svn/trunk/stacks/ais_bonn_drivers/sicks300'}
+- git: {local-name: stacks/uos-camera_umd, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-camera_umd.git', version: master}
+#- svn: {local-name: stacks/urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
+- git: {local-name: stacks/imu_tools, uri: 'https://github.com/uos/imu_tools.git', version: master}
+- git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/uos/phidgets_drivers.git', version: fuerte}
+- git:
+    local-name: stacks/ar_kinect
+    uri: 'https://github.com/mikeferguson/ar_kinect.git'
+    version: fuerte-devel
+- git:
+    local-name: stacks/ccny_vision
+    uri: 'https://github.com/uos/ccny_vision.git'
+    version: master
+
+# overlays (bug fixed forks of other ROS stacks)
+- git: {local-name: overlays/interpolated_ik_motion_planner, uri: 'http://kos.informatik.uni-osnabrueck.de/interpolated_ik_motion_planner.git', version: master}
+#- git: {local-name: overlays/object_manipulator, uri: 'http://kos.informatik.uni-osnabrueck.de/object_manipulator.git', version: master}
+#- git: {local-name: overlays/tabletop_collision_map_processing, uri: 'http://kos.informatik.uni-osnabrueck.de/tabletop_collision_map_processing.git', version: master}
+#- git: {local-name: overlays/tabletop_object_detector, uri: 'http://kos.informatik.uni-osnabrueck.de/tabletop_object_detector.git', version: master}
+- git: {local-name: overlays/laser_assembler, uri: 'https://github.com/uos/laser_assembler.git', version: fuerte-devel}

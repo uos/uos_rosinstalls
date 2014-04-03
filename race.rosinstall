@@ -1,0 +1,24 @@
+##### RACE ROS stacks #####
+- git: {local-name: race/race_blackboard, uri: 'software@kure.informatik.uos.de:race_blackboard'}
+- svn: {local-name: race/race_cbr, uri: 'http://race-cbr.googlecode.com/svn/trunk'}
+- git: {local-name: race/race_conceptualization, uri: 'software@kure.informatik.uos.de:race_conceptualization'}
+- git: {local-name: race/race_episode_manager, uri: 'software@kure.informatik.uos.de:race_episode_manager'}
+- git: {local-name: race/race_experience_extraction, uri: 'software@kure.informatik.uos.de:race_experience_extraction'}
+- git: {local-name: race/race_hri, uri: 'software@kure.informatik.uos.de:race_hri'}
+- git: {local-name: race/race_object_perception, uri: 'software@kure.informatik.uos.de:race_object_perception'}
+- git: {local-name: race/race_owl, uri: 'software@kure.informatik.uos.de:race_owl'}
+- git: {local-name: race/race_perception, uri: 'software@kure.informatik.uos.de:race_perception'}
+- git: {local-name: race/race_planex, uri: 'software@kure.informatik.uos.de:race_planex'}
+- git: {local-name: race/race_pr2, uri: 'software@kure.informatik.uos.de:race_pr2'}
+- git: {local-name: race/race_simulation, uri: 'software@kure.informatik.uos.de:race_simulation'}
+- svn: {local-name: race/meta_csp_framework, uri: 'http://meta-csp-framework.googlecode.com/svn/trunk'}
+
+##### 3rd party stacks #####
+- git: {local-name: stacks/android_core, uri: 'git://github.com/uos/android_core.git', version: fuerte-devel}
+- git: {local-name: stacks/ar_kinect, uri: 'https://github.com/mikeferguson/ar_kinect.git', version: fuerte-devel}
+- git: {local-name: stacks/ccny_vision, uri: 'https://github.com/uos/ccny_vision.git', version: master}
+- git: {local-name: stacks/cob_people_perception, uri: 'https://github.com/ipa320/cob_people_perception.git', version: fuerte_dev}
+- git: {local-name: stacks/cob_perception_common, uri: 'https://github.com/ipa320/cob_perception_common.git', version: fuerte_dev}
+- git: {local-name: stacks/pcl_conversions, uri: 'https://github.com/ros-perception/pcl_conversions.git', version: fuerte-devel}
+- git: {local-name: stacks/pcl_msgs, uri: 'https://github.com/ros-perception/pcl_msgs', version: fuerte-devel}
+- git: {local-name: stacks/rosjava_core, uri: 'git://github.com/uos/rosjava_core.git', version: fuerte-devel}

@@ -1,0 +1,41 @@
+[DEFAULT]
+# Include all available libs.
+include = cat /usr/share/mr/* 2>/dev/null || true
+
+lib =
+  write_setups() {
+    test -f setup.sh && return
+    echo "export ROS_ROOT=$1/ros" > setup.sh
+    echo 'export PATH=$ROS_ROOT/bin:$PATH' >> setup.sh
+    echo 'export PYTHONPATH=$ROS_ROOT/core/roslib/src:$PYTHONPATH' >> setup.sh
+    echo 'if [ ! "$ROS_MASTER_URI" ] ; then export ROS_MASTER_URI=http://localhost:11311 ; fi' >> setup.sh
+    echo "export ROS_PACKAGE_PATH=$PWD:$1/stacks" >> setup.sh
+    echo "export ROS_WORKSPACE=$PWD" >> setup.sh
+    cp "$1/setup.bash" setup.bash
+    cp "$1/setup.zsh" setup.zsh
+  }
+
+#### uos-ros-pkg and required stacks  ###
+[.]
+checkout = write_setups /opt/ros/diamondback
+update   = write_setups /opt/ros/diamondback
+skip = [ "$1" != checkout ] && [ "$1" != update ]
+
+[stacks/urdf_tools]
+checkout = svn co 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk' 'urdf_tools'
+
+[stacks/openrave_planning]
+checkout = svn co -r2073 'https://jsk-ros-pkg.svn.sourceforge.net/svnroot/jsk-ros-pkg/trunk/openrave_planning' 'openrave_planning'
+update = : # noop: stay on revision 2073 (last working with diamondback)
+
+[stacks/jsk_common]
+checkout = svn co 'https://jsk-ros-pkg.svn.sourceforge.net/svnroot/jsk-ros-pkg/trunk/jsk_common' 'jsk_common'
+
+[stacks/sicks300]
+checkout = svn co 'http://ais-bonn-ros-pkg.googlecode.com/svn/trunk/stacks/ais_bonn_drivers/sicks300' 'sicks300'
+
+[stacks/RCPRG_laser_drivers]
+checkout = git clone 'git://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git' 'RCPRG_laser_drivers'
+
+[uos-ros-pkg]
+checkout = git clone 'http://kos.informatik.uni-osnabrueck.de/uos-ros-pkg.git' 'uos-ros-pkg'

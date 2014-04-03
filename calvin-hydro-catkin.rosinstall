@@ -1,0 +1,12 @@
+# --- MUFFIN
+# N/A
+
+# --- uos-ros-pkg
+# N/A
+
+# --- 3rd party stacks
+- git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/ccny-ros-pkg/phidgets_drivers', version: hydro}
+- git: {local-name: stacks/imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools', version: hydro}
+
+# --- overlays
+# N/A

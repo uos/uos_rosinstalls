@@ -1,0 +1,4 @@
+### hardware drivers
+
+# SICK LMS100 driver
+- git: {local-name: RCPRG_laser_drivers, uri: 'git://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git', version: hydro-devel}

@@ -6,7 +6,7 @@
     version: master}
 - git: {local-name: stack/diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin.git',
     version: fuerte}
-- git: {local-name: stack/kurt_apps, uri: 'https://github.com/uos/kurt_apps.git',
+- git: {local-name: stack/kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git',
     version: fuerte}
 - git: {local-name: stack/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git',
     version: fuerte}

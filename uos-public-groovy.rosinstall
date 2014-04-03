@@ -12,7 +12,7 @@
 - git: {local-name: uos-ros-pkg/katana_driver, uri: 'https://github.com/uos/katana_driver.git', version: groovy}
 # TODO: switch to groovy branch when we officially support groovy
 #- git: {local-name: uos-ros-pkg/katana_manipulation, uri: 'https://github.com/uos/katana_manipulation.git', version: fuerte}
-- git: {local-name: uos-ros-pkg/kurt_apps, uri: 'https://github.com/uos/kurt_apps.git', version: groovy}
+- git: {local-name: uos-ros-pkg/kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: groovy}
 - git: {local-name: uos-ros-pkg/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: groovy}
 # TODO: switch to groovy branch when we officially support groovy
 - git: {local-name: uos-ros-pkg/kurtana_robot, uri: 'https://github.com/uos/kurtana_robot.git', version: groovy_transition}

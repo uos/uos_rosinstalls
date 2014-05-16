@@ -21,4 +21,8 @@
 - git: {local-name: stacks/cob_perception_common, uri: 'https://github.com/ipa320/cob_perception_common.git', version: fuerte_dev}
 - git: {local-name: stacks/pcl_conversions, uri: 'https://github.com/ros-perception/pcl_conversions.git', version: fuerte-devel}
 - git: {local-name: stacks/pcl_msgs, uri: 'https://github.com/ros-perception/pcl_msgs', version: fuerte-devel}
+- git: {local-name: stacks/pgmpp, uri: 'software@kure.informatik.uos.de:pgmpp', version: fuerte}
 - git: {local-name: stacks/rosjava_core, uri: 'git://github.com/uos/rosjava_core.git', version: fuerte-devel}
+
+##### non-ROS libraries #####
+- git: {local-name: libs/pgmplusplus, uri: 'software@kure.informatik.uos.de:pgmplusplus', version: master}

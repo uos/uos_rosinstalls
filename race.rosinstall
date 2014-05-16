@@ -24,5 +24,8 @@
 - git: {local-name: stacks/pgmpp, uri: 'software@kure.informatik.uos.de:pgmpp', version: fuerte}
 - git: {local-name: stacks/rosjava_core, uri: 'git://github.com/uos/rosjava_core.git', version: fuerte-devel}
 
+##### overlays #####
+- git: {local-name: overlays/object_manipulation, uri: 'https://github.com/uos/object_manipulation.git', version: fuerte}
+
 ##### non-ROS libraries #####
 - git: {local-name: libs/pgmplusplus, uri: 'software@kure.informatik.uos.de:pgmplusplus', version: master}

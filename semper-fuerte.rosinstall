@@ -1,0 +1,15 @@
+##### SEMantic PERception stacks #####
+- git: {local-name: stacks/pgmpp, uri: 'software@kure.informatik.uos.de:pgmpp', version: fuerte}
+
+##### RACE ROS stacks #####
+- git: {local-name: stacks/race_blackboard, uri: 'software@kure.informatik.uos.de:race_blackboard', version: semper}
+- git: {local-name: stacks/race_conceptualization, uri: 'software@kure.informatik.uos.de:race_conceptualization', version: master}
+- git: {local-name: stacks/race_object_perception, uri: 'software@kure.informatik.uos.de:race_object_perception', version: semper}
+- git: {local-name: stacks/race_perception, uri: 'software@kure.informatik.uos.de:race_perception', version: semper}
+
+##### 3rd party stacks #####
+- git: {local-name: stacks/pcl_conversions, uri: 'https://github.com/ros-perception/pcl_conversions.git', version: fuerte-devel}
+- git: {local-name: stacks/pcl_msgs, uri: 'https://github.com/ros-perception/pcl_msgs', version: fuerte-devel}
+
+##### non-ROS libraries #####
+- git: {local-name: libs/pgmplusplus, uri: 'software@kure.informatik.uos.de:pgmplusplus', version: master}

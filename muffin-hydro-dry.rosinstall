@@ -1,7 +1,7 @@
 - git: {local-name: muffin_common, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_common', version: master}
 
 - git: {local-name: mobman/calvin_navigation, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_navigation', version: hydro}
-- git: {local-name: mobman/calvin_robot, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_robot', version: hydro}
+- git: {local-name: mobman/calvin_robot, uri: 'https://github.com/uos/calvin_robot', version: hydro}
 - git: {local-name: mobman/muffin_mobman, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_mobman', version: hydro}
 
 - git: {local-name: karte/rotunit_coloring, uri: 'software@kure.informatik.uni-osnabrueck.de:rotunit_coloring', version: hydro}

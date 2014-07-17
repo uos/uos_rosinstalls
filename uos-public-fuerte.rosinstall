@@ -24,7 +24,7 @@
 #- svn: {local-name: stacks/openrave_planning, uri: 'https://jsk-ros-pkg.svn.sourceforge.net/svnroot/jsk-ros-pkg/trunk/openrave_planning'}
 - git: {local-name: stacks/RCPRG_laser_drivers, uri: 'git://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git', version: master}
 - svn: {local-name: stacks/sicks300, uri: 'http://ais-bonn-ros-pkg.googlecode.com/svn/trunk/stacks/ais_bonn_drivers/sicks300'}
-- git: {local-name: stacks/uos-camera_umd, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-camera_umd.git', version: master}
+- git: {local-name: stacks/uos-camera_umd, uri: 'https://github.com/uos/camera_umd', version: master}
 #- svn: {local-name: stacks/urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
 - git: {local-name: stacks/imu_tools, uri: 'https://github.com/uos/imu_tools.git', version: master}
 - git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/uos/phidgets_drivers.git', version: fuerte}
@@ -38,7 +38,7 @@
     version: master
 
 # overlays (bug fixed forks of other ROS stacks)
-- git: {local-name: overlays/interpolated_ik_motion_planner, uri: 'http://kos.informatik.uni-osnabrueck.de/interpolated_ik_motion_planner.git', version: master}
+- git: {local-name: overlays/interpolated_ik_motion_planner, uri: 'https://github.com/uos/interpolated_ik_motion_planner', version: master}
 #- git: {local-name: overlays/object_manipulator, uri: 'http://kos.informatik.uni-osnabrueck.de/object_manipulator.git', version: master}
 #- git: {local-name: overlays/tabletop_collision_map_processing, uri: 'http://kos.informatik.uni-osnabrueck.de/tabletop_collision_map_processing.git', version: master}
 #- git: {local-name: overlays/tabletop_object_detector, uri: 'http://kos.informatik.uni-osnabrueck.de/tabletop_object_detector.git', version: master}

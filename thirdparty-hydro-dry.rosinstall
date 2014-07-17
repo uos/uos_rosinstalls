@@ -1,7 +1,7 @@
 ### hardware drivers
 
 # driver for Logitech Quickcam
-- git: {local-name: stacks/uos-camera_umd, uri: 'http://kos.informatik.uni-osnabrueck.de/uos-camera_umd.git', version: master}
+- git: {local-name: stacks/uos-camera_umd, uri: 'https://github.com/uos/camera_umd', version: master}
 
 # driver for USB web cams
 - git: {local-name: stacks/usb_cam, uri: 'https://github.com/uos/usb_cam', version: master}

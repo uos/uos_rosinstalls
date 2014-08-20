@@ -16,7 +16,7 @@
 - git: {local-name: uos-ros-pkg/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: groovy}
 # TODO: switch to groovy branch when we officially support groovy
 - git: {local-name: uos-ros-pkg/kurtana_robot, uri: 'https://github.com/uos/kurtana_robot.git', version: groovy_transition}
-- git: {local-name: uos-ros-pkg/sick_tim3xx, uri: 'https://github.com/uos/sick_tim3xx.git', version: groovy}
+- git: {local-name: uos-ros-pkg/sick_tim, uri: 'https://github.com/uos/sick_tim.git', version: groovy}
 - git: {local-name: uos-ros-pkg/uos_slam, uri: 'https://github.com/uos/uos_slam.git', version: groovy}
 - git: {local-name: uos-ros-pkg/uos_tools, uri: 'https://github.com/uos/uos_tools.git', version: groovy}
 - git: {local-name: uos-ros-pkg/volksbot_driver, uri: 'https://github.com/uos/volksbot_driver.git', version: master}

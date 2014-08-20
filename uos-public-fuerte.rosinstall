@@ -14,7 +14,7 @@
 - git: {local-name: uos-ros-pkg/kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: fuerte}
 - git: {local-name: uos-ros-pkg/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: fuerte}
 - git: {local-name: uos-ros-pkg/kurtana_robot, uri: 'https://github.com/uos/kurtana_robot.git', version: fuerte}
-- git: {local-name: uos-ros-pkg/sick_tim3xx, uri: 'https://github.com/uos/sick_tim3xx.git', version: fuerte}
+- git: {local-name: uos-ros-pkg/sick_tim, uri: 'https://github.com/uos/sick_tim.git', version: fuerte}
 - git: {local-name: uos-ros-pkg/uos_slam, uri: 'https://github.com/uos/uos_slam.git', version: fuerte}
 - git: {local-name: uos-ros-pkg/uos_tools, uri: 'https://github.com/uos/uos_tools.git', version: fuerte}
 - git: {local-name: uos-ros-pkg/volksbot_driver, uri: 'https://github.com/uos/volksbot_driver.git', version: master}

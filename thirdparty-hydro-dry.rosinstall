@@ -12,3 +12,6 @@
 #### stacks required by katana_kinect_calibration
 - git: {local-name: stacks/ar_kinect, uri: 'https://github.com/mikeferguson/ar_kinect', version: hydro-devel}
 - git: {local-name: stacks/ar_tools, uri: 'https://github.com/LucidOne/ar_tools', version: master}
+
+# package to enable robot self filtering in hydro
+-git: {local-name: stacks/robot_self_filter, uri: 'https://github.com/tu-darmstadt-ros-pkg/robot_self_filter.git', version: master}

@@ -12,4 +12,4 @@
 - git: {local-name: stacks/pcl_msgs, uri: 'https://github.com/ros-perception/pcl_msgs', version: fuerte-devel}
 
 ##### non-ROS libraries #####
-- git: {local-name: libs/pgmplusplus, uri: 'software@kure.informatik.uos.de:pgmplusplus', version: master}
+- git: {local-name: libs/upgmpp, uri: 'https://github.com/jotaraul/upgmpp.git', version: master}

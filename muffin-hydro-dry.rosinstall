@@ -16,6 +16,7 @@
 - git: {local-name: karte/threedtk_tools, uri: 'software@kure.informatik.uni-osnabrueck.de:ros_slam6d.pg2013', version: master}
 - git: {local-name: karte/postgis_control, uri: 'software@kure.informatik.uni-osnabrueck.de:postgis_control', version: master}
 - git: {local-name: karte/map_server_2d, uri: 'software@kure.informatik.uni-osnabrueck.de:postgis_utility', version: master}
+- git: {local-name: karte/grid_creation, uri: 'https://github.com/hdeeken/grid_creation.git', version: master}
 
 - git: {local-name: stacks/diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin', version: hydro}
 - git: {local-name: stacks/katana_driver, uri: 'https://github.com/uos/katana_driver', version: hydro}

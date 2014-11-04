@@ -1,0 +1,12 @@
+- git: {local-name: stacks/household_objects_database, uri: 'https://github.com/ros-interactive-manipulation/household_objects_database.git', version: hydro-devel}
+- git: {local-name: stacks/ivcon, uri: 'https://github.com/ros-gbp/ivcon-release.git', version: release/hydro/ivcon/0.1.4-0}
+- git: {local-name: stacks/convex_decomposition, uri: 'https://github.com/ros-gbp/convex_decomposition-release.git', version: release/hydro/convex_decomposition/0.1.9-0}
+- git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/ccny-ros-pkg/phidgets_drivers', version: hydro}
+- git: {local-name: stacks/imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools', version: hydro}
+- git: {local-name: stacks/usb_cam, uri: 'https://github.com/bosch-ros-pkg/usb_cam', version: master}
+- git: {local-name: stacks/frontier_exploration, uri: 'https://github.com/paulbovbel/frontier_exploration', version: hydro-devel}
+- git: {local-name: uos/diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin', version: indigo}
+- git: {local-name: uos/volksbot_driver, uri: 'https://github.com/uos/volksbot_driver', version: indigo}
+- git: {local-name: uos/sick_tim, uri: 'https://github.com/uos/sick_tim', version: indigo}
+- git: {local-name: uos/uos_tools, uri: 'https://github.com/uos/uos_tools', version: indigo}
+- git: {local-name: uos/muffin_catkin, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_catkin', version: master}

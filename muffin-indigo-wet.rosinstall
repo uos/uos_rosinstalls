@@ -1,6 +1,6 @@
 - git: {local-name: stacks/household_objects_database, uri: 'https://github.com/ros-interactive-manipulation/household_objects_database.git', version: hydro-devel}
-- git: {local-name: stacks/ivcon, uri: 'https://github.com/ros-gbp/ivcon-release.git', version: release/hydro/ivcon/0.1.4-0}
-- git: {local-name: stacks/convex_decomposition, uri: 'https://github.com/ros-gbp/convex_decomposition-release.git', version: release/hydro/convex_decomposition/0.1.9-0}
+- git: {local-name: stacks/ivcon, uri: 'https://github.com/ros/ivcon.git', version: master}
+- git: {local-name: stacks/convex_decomposition, uri: 'https://github.com/ros/convex_decomposition.git', version: master}
 - git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/ccny-ros-pkg/phidgets_drivers', version: hydro}
 - git: {local-name: stacks/imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools', version: hydro}
 - git: {local-name: stacks/usb_cam, uri: 'https://github.com/bosch-ros-pkg/usb_cam', version: master}

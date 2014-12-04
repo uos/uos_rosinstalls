@@ -26,8 +26,8 @@
 - svn: {local-name: stacks/sicks300, uri: 'http://ais-bonn-ros-pkg.googlecode.com/svn/trunk/stacks/ais_bonn_drivers/sicks300'}
 - git: {local-name: stacks/uos-camera_umd, uri: 'https://github.com/uos/camera_umd', version: master}
 #- svn: {local-name: stacks/urdf_tools, uri: 'https://wu-ros-pkg.svn.sourceforge.net/svnroot/wu-ros-pkg/stacks/urdf_tools/trunk'}
-- git: {local-name: stacks/imu_tools, uri: 'https://github.com/uos/imu_tools.git', version: master}
-- git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/uos/phidgets_drivers.git', version: fuerte}
+- git: {local-name: stacks/imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools.git', version: fuerte}
+- git: {local-name: stacks/phidgets_drivers, uri: 'https://github.com/ccny-ros-pkg/phidgets_drivers.git', version: fuerte}
 - git:
     local-name: stacks/ar_kinect
     uri: 'https://github.com/mikeferguson/ar_kinect.git'

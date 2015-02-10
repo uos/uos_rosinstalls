@@ -4,3 +4,4 @@
 - git: {local-name: stacks/kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: hydro}
 - git: {local-name: stacks/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: hydro}
 - git: {local-name: stacks/usb_cam, uri: 'https://github.com/uos/usb_cam', version: master}
+- git: {local-name: stacks/robot_self_filter, uri: 'https://github.com/tu-darmstadt-ros-pkg/robot_self_filter.git', version: master}

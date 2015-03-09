@@ -2,3 +2,6 @@
 
 # SICK LMS100 driver
 - git: {local-name: RCPRG_laser_drivers, uri: 'git://github.com/RCPRG-ros-pkg/RCPRG_laser_drivers.git', version: hydro-devel}
+
+# package to enable robot self filtering in hydro
+- git: {local-name: stacks/robot_self_filter, uri: 'https://github.com/uos/robot_self_filter.git', version: hydro_catkin}

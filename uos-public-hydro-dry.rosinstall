@@ -3,4 +3,5 @@
 # referenced from http://www.ros.org/wiki/uos-ros-pkg.
 
 - git: {local-name: uos-ros-pkg/kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: hydro}
+- git: {local-name: uos-ros-pkg/kurt3d, uri: 'https://github.com/uos/kurt3d.git', version: hydro}
 - git: {local-name: uos-ros-pkg/uos_slam, uri: 'https://github.com/uos/uos_slam', version: hydro}

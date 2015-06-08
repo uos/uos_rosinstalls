@@ -1,6 +1,6 @@
 ##### RACE ROS stacks #####
 - git: {local-name: race/chimp, uri: 'software@kure.informatik.uos.de:chimp'}
-- git: {local-name: race/uos_active_perception, uri: 'software@kure.informatik.uos.de:uos_active_perception', version: fuerte}
+- git: {local-name: race/uos_active_perception, uri: 'https://github.com/uos/uos_active_perception.git', version: fuerte}
 - git: {local-name: race/race_blackboard, uri: 'software@kure.informatik.uos.de:race_blackboard'}
 - svn: {local-name: race/race_cbr, uri: 'http://race-cbr.googlecode.com/svn/trunk'}
 - git: {local-name: race/race_conceptualization, uri: 'software@kure.informatik.uos.de:race_conceptualization'}

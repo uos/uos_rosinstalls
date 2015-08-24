@@ -1,0 +1,28 @@
+- git: {local-name: muffin_common, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_common', version: master}
+
+- git: {local-name: mobman/calvin_robot, uri: 'https://github.com/uos/calvin_robot', version: indigo}
+- git: {local-name: mobman/calvin_navigation, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_navigation', version: indigo}
+- git: {local-name: mobman/muffin_mobman, uri: 'software@kure.informatik.uni-osnabrueck.de:muffin_mobman', version: indigo}
+
+- git: {local-name: karte/rotunit_coloring, uri: 'software@kure.informatik.uni-osnabrueck.de:rotunit_coloring', version: indigo}
+- git: {local-name: karte/rviz_mesh_plugin, uri: 'software@kure.informatik.uni-osnabrueck.de:rviz_mesh_plugin', version: master}
+- git: {local-name: karte/rviz_label_tool, uri: 'software@kure.informatik.uni-osnabrueck.de:rviz_label_tool', version: master}
+- git: {local-name: karte/hobbes_robot, uri: 'software@kure.informatik.uni-osnabrueck.de:hobbes_robot', version: master}
+- git: {local-name: karte/hobbes_navigation, uri: 'software@kure.informatik.uni-osnabrueck.de:hobbes_navigation', version: master}
+- git: {local-name: karte/hobbes_communication, uri: 'software@kure.informatik.uni-osnabrueck.de:hobbes_communication', version: master}
+- git: {local-name: karte/meshing.pg2013, uri: 'software@kure.informatik.uni-osnabrueck.de:meshing.pg2013', version: master}
+- git: {local-name: karte/lvr_tools, uri: 'software@kure.informatik.uni-osnabrueck.de:roslvr', version: indigo}
+- git: {local-name: karte/slam6d.pg2013, uri: 'software@kure.informatik.uni-osnabrueck.de:slam6d', version: master}
+- git: {local-name: karte/threedtk_tools, uri: 'software@kure.informatik.uni-osnabrueck.de:ros_slam6d.pg2013', version: master}
+- git: {local-name: karte/postgis_control, uri: 'software@kure.informatik.uni-osnabrueck.de:postgis_control', version: master}
+- git: {local-name: karte/grid_creation, uri: 'https://github.com/hdeeken/grid_creation.git', version: master}
+- git: {local-name: karte/floor_transform, uri: 'https://github.com/spuetz/floor_transform.git', version: master}
+- git: {local-name: karte/map_server_2d, uri: 'software@kure.informatik.uni-osnabrueck.de:postgis_utility', version: master}
+- git: {local-name: karte/multi_2d_navigation, uri: 'https://github.com/hdeeken/multi_2d_navigation', version: master}
+- git: {local-name: karte/fps_motion_tool, uri: 'https://github.com/hdeeken/fps_motion_tool', version: master}
+
+- git: {local-name: stacks/katana_driver, uri: 'https://github.com/uos/katana_driver', version: indigo}
+- git: {local-name: stacks/kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: indigo}
+- git: {local-name: stacks/kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: indigo}
+- git: {local-name: stacks/kurt_apps, uri: 'https://github.com/uos/kurt_apps.git', version: indigo}
+- git: {local-name: stacks/robot_self_filter, uri: 'https://github.com/tu-darmstadt-ros-pkg/robot_self_filter.git', version: master}

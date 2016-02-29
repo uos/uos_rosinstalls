@@ -8,7 +8,11 @@
 - git: {local-name: sick_tim, uri: 'https://github.com/uos/sick_tim', version: indigo}
 - git: {local-name: usb_cam, uri: 'https://github.com/bosch-ros-pkg/usb_cam', version: master}
 
+# actuators
+- git: {local-name: volksbot_driver, uri: 'https://github.com/uos/volksbot_driver', version: indigo}
 - git: {local-name: uos_rotunit, uri: 'https://github.com/uos/uos_rotunit', version: indigo}
+- git: {local-name: katana_driver, uri: 'https://github.com/uos/katana_driver', version: indigo_catkin}
+
 
 #########
 # utils #
@@ -30,8 +34,6 @@
 
 - git: {local-name: calvin_robot, uri: 'https://github.com/uos/calvin_robot', version: indigo_catkin}
 - git: {local-name: calvin_navigation, uri: 'https://github.com/uos/calvin_navigation', version: indigo}
-- git: {local-name: katana_driver, uri: 'https://github.com/uos/katana_driver', version: indigo_catkin}
-- git: {local-name: volksbot_driver, uri: 'https://github.com/uos/volksbot_driver', version: indigo}
 
 ########
 # kurt #

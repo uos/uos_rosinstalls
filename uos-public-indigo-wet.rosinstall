@@ -3,16 +3,11 @@
 ##################
 
 # sensors
-- git: {local-name: phidgets_drivers, uri: 'https://github.com/ccny-ros-pkg/phidgets_drivers', version: indigo}
-- git: {local-name: imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools', version: indigo}
-- git: {local-name: sick_tim, uri: 'https://github.com/uos/sick_tim', version: indigo}
-- git: {local-name: usb_cam, uri: 'https://github.com/bosch-ros-pkg/usb_cam', version: master}
 
 # actuators
 - git: {local-name: volksbot_driver, uri: 'https://github.com/uos/volksbot_driver', version: indigo}
 - git: {local-name: uos_rotunit, uri: 'https://github.com/uos/uos_rotunit', version: indigo}
 - git: {local-name: katana_driver, uri: 'https://github.com/uos/katana_driver', version: indigo_catkin}
-
 
 #########
 # utils #
@@ -23,7 +18,6 @@
 - git: {local-name: robot_self_filter, uri: 'https://github.com/uos/robot_self_filter', version: indigo_catkin}
 - git: {local-name: uos_tools, uri: 'https://github.com/uos/uos_tools', version: indigo}
 - git: {local-name: bag_loop_check, uri: 'https://github.com/uos/bag_loop_check', version: master}
-- git: {local-name: frontier_exploration, uri: 'https://github.com/paulbovbel/frontier_exploration', version: indigo-devel}
 
 - git: {local-name: rviz_fps_plugin, uri: 'https://github.com/uos/rviz_fps_plugin', version: indigo}
 - git: {local-name: rviz_homing_plugin, uri: 'https://github.com/uos/rviz_homing_plugin', version: indigo}

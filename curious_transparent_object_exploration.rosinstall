@@ -1,0 +1,43 @@
+######################
+# unreleased drivers #
+######################
+
+- git: {local-name: volksbot_driver, uri: 'https://github.com/uos/volksbot_driver', version: indigo}
+
+#########
+# utils #
+#########
+
+- git: {local-name: diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin', version: indigo}
+- git: {local-name: robot_self_filter, uri: 'https://github.com/uos/robot_self_filter.git', version: indigo_catkin}
+- git: {local-name: uos_tools, uri: 'https://github.com/uos/uos_tools', version: indigo}
+
+##########
+# calvin #
+##########
+
+- git: {local-name: calvin_robot, uri: 'https://github.com/uos/calvin_robot', version: indigo_catkin}
+- git: {local-name: calvin_navigation, uri: 'https://github.com/uos/calvin_navigation', version: indigo}
+
+###############################
+# re-required for pcl overlay #
+###############################
+# load by e.g.
+# PCL=${HOME}/pcl_overlay
+# export C_INCLUDE_PATH="$PCL/include:$CPATH"
+# export PATH="$PCL/bin:$PATH"
+# export LD_LIBRARY_PATH="$PCL/lib:$LD_LIBRARY_PATH"
+# export PKG_CONFIG_PATH="$PCL/lib/pkgconfig:$PKG_CONFIG_PATH"
+
+- git: {local-name: ecto_pcl, uri: 'https://github.com/plasmodic/ecto_pcl' }
+- git: {local-name: pcl_conversions, uri: 'https://github.com/ros-perception/pcl_conversions', version: indigo-devel}
+- git: {local-name: pcl_ros, uri: 'https://github.com/ros-perception/perception_pcl', version: indigo-devel}
+
+###############
+# experiments #
+###############
+
+- git: {local-name: uos_ecto_cells, uri: 'https://github.com/uos/uos_ecto_cells'}
+- git: {local-name: curious_table_explorer, uri: 'https://github.com/uos/curious_table_explorer', version: indigo-devel}
+- git: {local-name: transparent_object_reconstruction, uri: 'https://github.com/uos/transparent_object_reconstruction'}
+- git: {local-name: pick_transparent_object_demo, uri: 'software@kure.informatik.uni-osnabrueck.de:calvin_pick_transparent_object_demo'}

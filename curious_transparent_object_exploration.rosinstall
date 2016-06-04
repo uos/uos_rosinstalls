@@ -11,6 +11,7 @@
 - git: {local-name: diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin', version: indigo}
 - git: {local-name: robot_self_filter, uri: 'https://github.com/uos/robot_self_filter.git', version: indigo_catkin}
 - git: {local-name: uos_tools, uri: 'https://github.com/uos/uos_tools', version: indigo}
+- git: {local-name: bag_loop_check, uri: 'https://github.com/uos/bag_loop_check', version: master}
 
 ##########
 # calvin #

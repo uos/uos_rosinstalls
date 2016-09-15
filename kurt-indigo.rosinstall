@@ -1,6 +1,4 @@
 - git: {local-name: diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin', version: indigo}
 - git: {local-name: uos_tools, uri: 'https://github.com/uos/uos_tools', version: indigo}
 - git: {local-name: kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: indigo_catkin}
-- git: {local-name: robot_self_filter, uri: 'https://github.com/uos/robot_self_filter.git', version: indigo_catkin}
-# currently no catkin package available
-#- git: {local-name: kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: indigo}
+- git: {local-name: kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: indigo_catkin}

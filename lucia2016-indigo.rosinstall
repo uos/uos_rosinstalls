@@ -1,0 +1,14 @@
+- git:
+    local-name: lucia_turtlebot
+    uri: https://github.com/uos/lucia_turtlebot.git
+    version: indigo
+# need at least turtlebot 2.3.14
+- git:
+    local-name: turtlebot
+    uri: https://github.com/turtlebot/turtlebot.git
+    version: indigo
+# need at least turtlebot_apps 2.3.7
+- git:
+    local-name: turtlebot_apps
+    uri: https://github.com/turtlebot/turtlebot_apps.git
+    version: indigo

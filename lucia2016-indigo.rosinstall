@@ -2,8 +2,16 @@
     local-name: lucia_turtlebot
     uri: https://github.com/uos/lucia_turtlebot.git
     version: indigo
+- git:
+    local-name: navigation
+    uri: https://github.com/uos/navigation.git
+    version: indigo-flap4caos
 # need at least turtlebot 2.3.14
 - git:
     local-name: turtlebot
     uri: https://github.com/turtlebot/turtlebot.git
+    version: indigo
+- git:
+    local-name: uos_active_perception
+    uri: https://github.com/uos/uos_active_perception.git
     version: indigo

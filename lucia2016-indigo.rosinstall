@@ -3,6 +3,10 @@
     uri: https://github.com/uos/lucia_turtlebot.git
     version: indigo
 - git:
+    local-name: lucia16
+    uri: 'https://github.com/iranmansoori/lucia-winter-school-2016.git'
+    version: master
+- git:
     local-name: navigation
     uri: https://github.com/uos/navigation.git
     version: indigo-flap4caos

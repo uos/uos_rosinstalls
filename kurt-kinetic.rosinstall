@@ -1,0 +1,6 @@
+- git: {local-name: diffdrive_gazebo_plugin, uri: 'https://github.com/uos/diffdrive_gazebo_plugin', version: indigo}
+- git: {local-name: uos_tools, uri: 'https://github.com/uos/uos_tools', version: kinetic}
+- git: {local-name: kurt_driver, uri: 'https://github.com/uos/kurt_driver.git', version: kinetic}
+- git: {local-name: kurt_navigation, uri: 'https://github.com/uos/kurt_navigation.git', version: indigo_catkin}
+- git: {local-name: sicktoolbox, uri: 'https://github.com/ros-drivers/sicktoolbox.git', version: catkin}
+- git: {local-name: sicktoolbox_wrapper, uri: 'https://github.com/ros-drivers/sicktoolbox_wrapper.git', version: indigo-devel}

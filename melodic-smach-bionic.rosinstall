@@ -1,0 +1,4 @@
+- git:
+    local-name: smach_viewer
+    uri: https://github.com/k-okada/executive_smach_visualization.git
+    version: melodic-devel	

@@ -1,0 +1,16 @@
+- git:
+    local-name: pluto_robot
+    uri: git@github.com:uos/pluto_robot.git
+    version: master
+- git:
+    local-name: mesh_navigation
+    uri: git@github.com:uos/mesh_navigation.git
+    version: master
+- git:
+    local-name: mesh_tools
+    uri: git@github.com:uos/mesh_tools.git
+    version: master
+- git:
+    local-name: lvr_ros
+    uri: git@github.com:uos/lvr_ros.git
+    version: master

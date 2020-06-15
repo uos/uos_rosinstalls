@@ -14,7 +14,3 @@
     local-name: lvr_ros
     uri: git@github.com:uos/lvr_ros.git
     version: master
-- git:
-    local-name: uos_tools
-    uri: https://github.com/uos/uos_tools.git
-    version: kinetic
